@@ -1,0 +1,20 @@
+{
+  "vendor": "MakerTronica",  
+  "name": "Penguino Feather 4260 (SAMR34)",
+  "url": "https://www.tindie.com/products/makertronika-labs/penguino-feather-4260-samr34-lora-dev-board/",
+  "build": {
+    "mcu":          "SAMR34J18B",
+    "core":         "samr34",
+    "variant":      "penguinorak4260",
+    "arduino-ld":   "samr34j18b_flash.ld",
+    "baremetal-ld": "samr34j18b_flash.ld"
+  },
+  "debug": {},  
+  "frameworks": [ "arduino", "baremetal" ],
+  "upload": {
+        "maximum_ram_size": 40000,
+        "maximum_size": 256000,
+        "tool" : "atprogram",
+        "args" : [ "-i", "SWD", "-t", "edbg", "-d", "ATSAMR34J18B", "-cl", "10MHz" ]
+  }
+}
