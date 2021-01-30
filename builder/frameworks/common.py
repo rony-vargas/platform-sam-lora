@@ -57,7 +57,7 @@ def atprogram(target, source, env):
     cmd.append( join(env.tool_dir, "atbackend", "atprogram") ) 
     for a in arg: cmd.append(a)
     exe = cmd    
-    #exe.append('-v')
+    exe.append('-v')
     exe.append('chiperase') 
     exe.append('program') 
     exe.append('-f')
