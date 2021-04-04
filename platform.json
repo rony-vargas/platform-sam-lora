@@ -32,7 +32,7 @@
     }, 
     "framework-sam-lora": {
       "type": "framework",
-      "version": "https://github.com/Wiz-IO/framework-sam-lora" 
+      "version": "https://github.com/rony-vargas/framework-sam-lora" 
     },
     "tool-sam-lora": {
       "type": "uploader",
